@@ -1,3 +1,9 @@
+<style lang="less" scoped>
+h1, h2 {
+  font-weight: normal;
+}
+</style>
+
 <template>
   <div class="hello">
     <Select @click="showPicker"></Select>
@@ -51,10 +57,3 @@ export default {
   }
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-</style>
